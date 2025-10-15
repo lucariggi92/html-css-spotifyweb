@@ -20,7 +20,7 @@
 
     .sidebar span {
         color: gray;
-        font-size: 0.7rem;
+        font-size: 0.rem;
         font-weight: 800;
         vertical-align: middle;
     }
@@ -74,25 +74,26 @@
     background-color: rgb(56, 56, 56);
     color: rgb(163, 162, 162);
     border: none;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
     font-weight: 800;
 }
 
 
-
-
-    /* .content{
-        width: calc(100% - 200px);
-    }
-     */
+.content{
+    width: 100%;
 }
 
-/* Tablet 
+/* Tablet */
 
 @media  screen and (min-width:700px) {
+    .btn-type{
+        font-size: 0.6rem;
+    }
    .cards{
     width: calc(100% / 4 - (10px*3) / 4);
    }
+
+
 }
 
 /* desktop */
@@ -105,4 +106,3 @@
     }
     
 } */
-*/

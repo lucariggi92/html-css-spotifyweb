@@ -25,7 +25,7 @@ img {
 
 /* LAYOUT */
 .container-90 {
-    width: 90%;
+    width: calc( 100% - 40px);
     margin: 0 auto;
     height: 100%;
 }
@@ -173,6 +173,7 @@ i{
 
 
 .main-nav ul {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -185,7 +186,7 @@ i{
 
     color: rgb(163, 162, 162);
     border: none;
-    font-size: 0.4rem;
+    font-size: 0.6rem;
     font-weight: 800;
 
 
