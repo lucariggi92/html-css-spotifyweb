@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
     <title>Document</title>
@@ -14,17 +15,49 @@
         <div class="top-container">
             <div class="sidebar">
                 <ul>
-                    <li><a href=""><img src="./img/logo-small.svg" alt=""></a></li>
-                    <li class="mg-top-10"><a href=""><img src="./img/home.svg" alt=""></a></li>
-                    <li><a href=""><img src="./img/search.svg" alt=""></a></li>
-                    <li><a href=""><img src="./img/libreria.svg" alt=""></a></li>
+                    <li><a href=""><img class="display-none-s" src="./img/logo-small.svg" alt=""> <img
+                                class="display-none logo" src="./img/logo.svg" alt=""></a></li>
+                    <li class="mg-top-10"><a href=""><img src="./img/home.svg" alt=""><span
+                                class="display-none">Home</span></a></li>
+                    <li><a href=""><img src="./img/search.svg" alt=""><span class="display-none">Cerca</span></a></li>
+                    <li><a href=""><img src="./img/libreria.svg" alt=""><span class="display-none">La tua
+                                libreria</span></a></li>
+                    <div class="crea-playlist display-none">
+                        <h3>PLAYLIST</h3>
+                        <ul>
+                            <li><a href=""><img src="./img/plus.jpg" alt=""><span>Crea Playlist</span></a></li>
+                            <li><a href="">Nome Playlist</a></li>
+                            <li><a href="">Nome Playlist</a></li>
+                            <li><a href="">Nome Playlist</a></li>
+                            <li><a href="">Nome Playlist</a></li>
+                            <li><a href="">Nome Playlist</a></li>
+                            <li><a href="">Nome Playlist</a></li>
+                            <li><a href="">Nome Playlist</a></li>
+                        </ul>
+                    </div>
                 </ul>
-                <div class="bottom-sidebar">
-                    <ul>
-                        <li class="download"><a href=""><img src="./img/download.svg" alt=""></a></li>
-                        <li class="profile mg-top-20"><a href=""><img src="./img/profile.svg" alt=""></a></li>
-                    </ul>
-                </div>
+
+               
+
+                   <ul>  <li class="download"> 
+                        <a href=""><img class="pd-right-2" src="./img/download.svg" alt=""><span class="display-none">installa app</span></a>
+                        </li>
+                    <li>
+                        <a href="">
+                            <img class="circle-img" src="./img/profile.svg" alt="">
+                            <span class="display-none">Luca</span>
+                        </a>
+                            </li></ul>
+                   
+            
+   
+            
+
+              
+
+
+
+
 
 
             </div>
@@ -46,38 +79,82 @@
                             </ul> <!--trasformato in link con ul -->
 
                         </nav>
-                        <!-- RECENTLY PLAYED -->
-                        <section class="mg-left mg-right">
-                            <h1 class="mg-top-20">Recently played</h1>
-                            <div class="cards-box mg-top-20">
+                        <!-- MUSIC SECTION -->
+                        <div class=" main-cards">
+
+                            <!-- RECENTLY PLAYED -->
+                            <h1 class="mg-top-40">Recently played</h1>
+                            <div class=" cards-section mg-top-10">
                                 <div class="cards">
-                                    <img src="./img/metal_lifting.jpg" alt="">
+                                    <a href=""><img src="./img/metal_lifting.jpg" alt=""></a>
                                     <h3>Heavy Mteal</h3>
                                     <h4>Subtitle</h4>
                                 </div>
 
                                 <div class="cards">
-                                    <img src="./img/stranger.jpeg" alt="">
-                                    <h3>Heavy Mteal</h3>
+                                    <a href=""><img src="./img/stranger.jpeg" alt=""></a>
+                                    <h3>Stranger Things, Vol.1 (a Netflix Original Series Soundtrack)</h3>
                                     <h4>Subtitle</h4>
                                 </div>
 
                                 <div class="cards">
-                                    <img src="./img/metal_lifting.jpg" alt="">
-                                    <h3>Heavy Mteal</h3>
+                                    <a href=""><img src="./img/aquietplace.jpeg" alt=""></a>
+                                    <h3>A quiet Place</h3>
                                     <h4>Subtitle</h4>
                                 </div>
 
                                 <div class="cards">
-                                    <img src="./img/metal_lifting.jpg" alt="">
-                                    <h3>Heavy Mteal</h3>
+                                    <a href=""><img src="./img/split.jpeg" alt=""></a>
+                                    <h3>Split</h3>
                                     <h4>Subtitle</h4>
                                 </div>
 
 
                             </div>
 
-                        </section>
+                            <!-- CREATO PER LUCA -->
+                            <section>
+                                <h1 class="mg-top-40">Creato per Luca</h1>
+                                <h4 class="mg-top-10">Più ascolti, più accurati saranno i suggeriment.</h4>
+                                <div class=" cards-section mg-top-10">
+                                    <div class="cards">
+                                        <a href=" "><img src="./img/radar.jpeg" alt=""></a>
+                                        <h3>Heavy Mteal</h3>
+                                        <h4>Subtitle</h4>
+                                    </div>
+
+                                    <div class="cards">
+                                        <a href=" "><img src="./img/mixdaily.jpeg" alt=""></a>
+                                        <h3>Heavy Mteal</h3>
+                                        <h4>Subtitle</h4>
+                                    </div>
+                            </section>
+
+
+                            <!-- ARTISTI PIù POPOLARI-->
+
+                            <h1 class="mg-top-40">Artisti più popolari</h1>
+                            <h4 class="mg-top-10">Più ascolti, più accurati saranno i suggeriment.</h4>
+                            <div class=" cards-section mg-top-10 più-ascoltati">
+                                <div class="cards">
+                                    <a href=""><img class="circle-img" src="./img/einaudi.jpeg" alt=""></a>
+                                    <h3>Einaudi</h3>
+                                    <h4>Subtitle</h4>
+                                </div>
+
+                                <div class="cards ">
+                                    <a href=""><img class="circle-img" src="./img/sinister.jpeg" alt=""></a>
+                                    <h3>Sinister</h3>
+                                    <h4>Subtitle</h4>
+                                </div>
+
+
+
+
+
+                            </div>
+
+                        </div>
                     </div>
 
                 </main>
