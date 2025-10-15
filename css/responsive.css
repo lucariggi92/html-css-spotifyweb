@@ -68,9 +68,15 @@
     }
 
 
+/* CONTENT */
 
-
-
+.btn-type {
+    background-color: rgb(56, 56, 56);
+    color: rgb(163, 162, 162);
+    border: none;
+    font-size: 0.7rem;
+    font-weight: 800;
+}
 
 
 
