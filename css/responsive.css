@@ -6,7 +6,11 @@
         padding: 20px;
         width: 200px;
     }
-  
+
+    /* .sidebar ul{
+        opacity: 0.6;
+    }  COME ALTERNATIVA CON STRUTTURA HTML DA MODIFCARE CON ESCLUSIONE TITOLI E LOGO DA UL*/
+
     .sidebar img {
         width: 35px;
         vertical-align: middle;
@@ -44,32 +48,33 @@
 
     }
 
-.bg-gray-user {
- width: 20px;
- height: 20px;
-    background-color: gray;
-    border-radius: 50%;
- }
+    .bg-gray-user {
+        width: 20px;
+        height: 20px;
+        background-color: gray;
+        border-radius: 50%;
+    }
 
- .sidebar .img-user{
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    padding: 0;
- }
+    .sidebar .img-user {
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        padding: 0;
+    }
 
 
-.sidebar .img-download {
-    transform:translate(1px);
-     
-    width: 20px;
-} 
+    .sidebar .img-download {
+        transform: translate(1px);
 
-.sidebar .name-profile{
-    font-weight: 900;
-    color: white;
-    font-size: 0.9rem;;
-}
+        width: 20px;
+    }
+
+    .sidebar .name-profile {
+        font-weight: 900;
+        color: white;
+        font-size: 0.9rem;
+        ;
+    }
 
     /* HEADER */
 
@@ -89,7 +94,7 @@
     /* CONTENT */
 
     .btn-type {
-       
+
         color: rgb(163, 162, 162);
         border: none;
         font-size: 0.7rem;
@@ -99,26 +104,29 @@
 
     .content {
         width: 100%;
-    }
-      }
-
-    /* Tablet 700px ////////////////////////////// */
-
-    @media screen and (min-width:700px) {
-        .btn-type {
-            font-size: 0.7rem;
-        }
-
-        .cards {
-            width: calc(100% / 4 - (10px*3) / 4);
-        }
-
 
     }
+}
 
-    /* desktop ///////////////////////////*/
-    @media screen and (min-width:1100px) {
-        .cards {
-            width: calc(100% / 6 - 50px / 6);
-        }
+
+
+/* Tablet 700px ////////////////////////////// */
+
+@media screen and (min-width:700px) {
+    .btn-type {
+        font-size: 0.7rem;
     }
+
+    .cards {
+        width: calc(100% / 4 - (10px*3) / 4);
+    }
+
+
+}
+
+/* desktop ///////////////////////////*/
+@media screen and (min-width:1100px) {
+    .cards {
+        width: calc(100% / 6 - 50px / 6);
+    }
+}
