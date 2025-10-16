@@ -119,31 +119,40 @@ h3 {
     width: var(--sidebar-width);
     background-color: black;
     padding: 8px;
+
 }
 
-
-.profile {
-    width: 30px;
-    height: 30px;
-    background-color: gray;
-    border-radius: 50%;
-}
-
-.bottom-sidebar {
+.profile{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-}
+    
 
-.download {
-      
-    width: 15px;
+}
+.bg-gray-user {
+ width: 25px;
+ height: 25px;
+    background-color: gray;
+    border-radius: 50%;
+ }
+
+ .img-user{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+ }
+
+
+.img-download {
+    transform:translate(1px);
+     
+    width: 20px;
 } 
 
 
 i{
     width: 50px;
+   
 }
 /* CONTENT SECTION */
 .content {
@@ -182,9 +191,7 @@ i{
 
 
 .btn-type {
-    background-color: rgb(56, 56, 56);
-
-    color: rgb(163, 162, 162);
+color: rgb(163, 162, 162);
     border: none;
     font-size: 0.6rem;
     font-weight: 800;
@@ -221,16 +228,33 @@ i{
 .circle-img {
     width: 100%;
     border-radius: 50%;
+   
 
 }
 
 
-
+/* FOOTER */
 
 footer {
     display: flex;
+    justify-content: space-between;
     background-color: rgb(43, 37, 37);
     height: var(--actionbar-height);
 
 
+}
+.album
+{
+    width: 250px;
+    background-color: gray;
+
+}
+.audio {
+    width: 250px;
+    background-color: gray;
+
+}
+
+.player{
+    width: 50%;
 }
